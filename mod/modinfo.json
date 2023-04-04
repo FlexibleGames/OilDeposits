@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "oildeposits",
+  "name": "Oil Deposits",
+  "authors": [ "Flexible Games" ],
+  "description": "Adds oil deposits to world generation.",
+  "website": "https://www.youtube.com/c/FlexibleGames",
+  "side": "Universal",
+  "version": "1.2.1",
+  "dependency": {}
+}

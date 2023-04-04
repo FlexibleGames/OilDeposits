@@ -1,0 +1,18 @@
+[
+	{
+		code: "oil",
+		triesPerChunk: 8,
+		withBlockCallback: false,
+		generator: "disc-followsealevel",	
+		handbookPageCode: "oil",
+		attributes: {
+			inblock: { code: "rock-*", name: "rock", allowedVariants: ["claystone", "sandstone", "shale", "chalk", "limestone", "chert", "conglomerate"] },
+			placeblock: { code: "oil-still-7" },
+			surfaceBlock: { code: "oil-still-7" },
+			surfaceBlockChance: 0.70,
+			radius: { dist: "gaussian", avg: 12, var: 6 },
+			yPosRel: { dist: "gaussian", avg: 0.6, var: 0.2 },
+			thickness: { dist: "gaussian", avg: 8, var: 4 }
+		}
+	}
+]
